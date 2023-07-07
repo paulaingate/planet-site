@@ -312,6 +312,7 @@ button {
         left: 0;
         background-color: #070724;
         width: 100%;
+        min-height: 100vh;
     }
 
     li {
@@ -407,7 +408,6 @@ button {
     .surface-img {
         width: 19%;
         max-width: 132px;
-        /* translate: -50% -10%; */
     }
 
     .img-container img {
@@ -647,11 +647,6 @@ button {
         font-size: 0.75rem;
         letter-spacing: 2.6;
     }
-    
-    /* h4 {
-        font-size: 0.69rem;
-        letter-spacing: 1;
-    } */
 
     button:hover {
         background-color: #38384F;
